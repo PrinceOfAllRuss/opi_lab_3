@@ -10,6 +10,7 @@ public class TestTest {
         Validator validator = new Validator();
         double x = -100;
         String y = "-100";
+
         double r = 1000;
         assertFalse(validator.validateData(x, y, r));
     }
